@@ -54,18 +54,14 @@ CREATE DATABASE raw_data;
 
 ---
 
-## **C. Source Data**
-1. **Main Data for COVID-19 Case and Impact Analysis**
-   - ✅ **Cases and Deaths** – Daily counts of cases, deaths, and recoveries across different countries.
-   - ✅ **Hospitalizations** – Number of COVID-19 patients admitted to hospitals.
+## **C. Data Source**
+The dataset is retrieved from the following sources:  
 
-2. **Supporting Data for External Factor Analysis**
-   - ✅ **Vaccinations** – Global vaccination totals to analyze the impact on COVID-19 cases.
-   - ✅ **Testing** – Number of COVID-19 tests conducted to assess spread and public health response.
+1️⃣ **COVID-19 Cases, Deaths, Vaccination and Hospitalizations**  
+🔗 [Our World in Data - COVID-19 Dataset](https://docs.owid.io/projects/etl/api/covid/#download-data)  
 
-3. **Historical Weather Data**
-   - ✅ **January - February 2021** – Data from the initial Alpha variant wave.
-   - ✅ **January - February 2022** – Data from the Omicron variant surge.
+2️⃣ **Weather Data (Historical Weather Records)**  
+🔗 [WeatherStack API](https://weatherstack.com/)  
 
 ---
 
